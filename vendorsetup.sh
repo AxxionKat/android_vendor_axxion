@@ -15,4 +15,3 @@ add_lunch_combo axxion_p760-userdebug
 add_lunch_combo axxion_p765-userdebug
 add_lunch_combo axxion_p768-userdebug
 add_lunch_combo axxion_falcon-userdebug
-
