@@ -1,5 +1,5 @@
 add_lunch_combo axxion_gee-userdebug
 add_lunch_combo axxion_maguro-userdebug
-add_lunch_combo liquid_mako-userdebug
+add_lunch_combo axxion_mako-userdebug
 add_lunch_combo axxion_spyder-userdebug
 add_lunch_combo axxion_umts_spyder-userdebug
