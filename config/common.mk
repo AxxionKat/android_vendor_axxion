@@ -232,6 +232,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.axxion.version=$(AXXION_VERSION) \
   ro.modversion=$(AXXION_VERSION) \
+  ro.platlogo.version=$(AXXION_VERSION_MAJOR) \
   ro.cmlegal.url=http://www.cyanogenmod.org/docs/privacy
 
 -include vendor/axxion-priv/keys/keys.mk
