@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/axxion/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
-# T-Mobile theme engine
+# Theme engine
 include vendor/axxion/config/themes_common.mk
 
 # Required axxion packages
