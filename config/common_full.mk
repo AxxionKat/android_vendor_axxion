@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     VisualizationWallpapers \
     PhotoTable \
-    VoiceDialer \
     SoundRecorder
 
 PRODUCT_PACKAGES += \
@@ -32,6 +31,6 @@ PRODUCT_PACKAGES += \
     libvideoeditor_videofilters \
     libvideoeditorplayer
 
-# Extra tools in axxion
+# Extra tools in Axxion
 PRODUCT_PACKAGES += \
     vim
