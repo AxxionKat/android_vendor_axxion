@@ -143,6 +143,8 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     LockClock \
+    AxxionStats \
+    OTAUpdateCenter \
     CMFota
 
 # axxion Hardware Abstraction Framework
@@ -205,6 +207,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
 else
 
+# ROM Statistics and ROM Identification
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.romstats.url=http://www.drdevs.com/stats/axxionkat/ \
+    ro.romstats.name=axxionkat \
+    ro.romstats.version=$(shell date +"%m-%d-%y") \
+    ro.romstats.askfirst=0 \
+    ro.romstats.tframe=1    
+    
+    
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otatime=$(shell date +%Y%m%d)-0001 \
+    otaupdater.otaver=Build.1-$(shell date +%Y%m%d)
+    
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
 
