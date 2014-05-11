@@ -7,4 +7,19 @@ CHANGELOG
 ---------
 
 ### 1.0.0
-- Initial Release
+- Initial Release:
+- HALO, custom bubble colors
+- Option to enble LED with the screen on
+- Slim's IME tweaks
+- Exclusive "Crimson Mode" (A complete optional RED/BLACK UI)
+- NavBar Dimensions, custom recents long press
+- Allow diabling hardware keys
+- Slim's LockScreen Custom Style 
+- SlimPIE (The first cm based rom with it)
+- Status Bar and Clock customizations
+- Option to flip QS tiles on touch
+- Wakelock Blocker
+- Custom volume panel timeout 
+- Custom Progress Bar
+- System App remover
+- New development transitions (0.25 and .75)
