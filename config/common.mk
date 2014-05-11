@@ -220,7 +220,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OTA
 PRODUCT_PROPERTY_OVERRIDES += \
     otaupdater.otatime=$(shell date +%Y%m%d)-0001 \
-    otaupdater.otaver=Build.1-$(shell date +%Y%m%d)
+    otaupdater.otaver=$(AXXION_VERSION_MAJOR).$(AXXION_VERSION_MINOR)-$(shell date +%Y%m%d)
     
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
@@ -233,7 +233,7 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/axxion/overlay/common
 
 # version
-RELEASE = false
+RELEASE = true
 AXXION_VERSION_MAJOR = 1.0
 AXXION_VERSION_MINOR = 0
 
@@ -249,7 +249,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.axxion.version=$(AXXION_VERSION) \
   ro.modversion=$(AXXION_VERSION) \
-  ro.platlogo.version=$(AXXION_VERSION_MAJOR) \
+  ro.platlogo.version=$(AXXION_VERSION_MAJOR).$(AXXION_VERSION_MINOR) \
   ro.cmlegal.url=http://www.cyanogenmod.org/docs/privacy
 
 -include vendor/axxion-priv/keys/keys.mk
