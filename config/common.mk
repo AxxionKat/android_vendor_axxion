@@ -76,7 +76,7 @@ endif
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-    vendor/axxion/CHANGELOG.mkdn:system/etc/CHANGELOG-axxion.txt
+    vendor/axxion/CHANGELOG.mkdn:system/etc/changelog.txt
 
 # Backup Tool
 ifneq ($(WITH_GMS),true)
