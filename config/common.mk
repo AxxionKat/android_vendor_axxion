@@ -200,16 +200,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
 else
-
-# ROM Statistics and ROM Identification
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.romstats.url=http://www.drdevs.com/stats/axxionkat/ \
-    ro.romstats.name=axxionkat \
-    ro.romstats.version=$(shell date +"%m-%d-%y") \
-    ro.romstats.askfirst=0 \
-    ro.romstats.tframe=1    
-    
-    
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
 
@@ -220,6 +210,14 @@ endif
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/axxion/overlay/common
 
+# ROM Statistics and ROM Identification
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.romstats.url=http://www.drdevs.com/stats/axxionkat/ \
+    ro.romstats.name=axxionkat \
+    ro.romstats.version=$(shell date +"%m-%d-%y") \
+    ro.romstats.askfirst=0 \
+    ro.romstats.tframe=1    
+    
 # version
 RELEASE = true
 AXXION_VERSION_MAJOR = 1.0
