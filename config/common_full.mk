@@ -24,7 +24,6 @@ PRODUCT_PACKAGES += \
     SoundRecorder
 
 PRODUCT_PACKAGES += \
-    VideoEditor \
     libvideoeditor_jni \
     libvideoeditor_core \
     libvideoeditor_osal \
