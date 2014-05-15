@@ -27,8 +27,7 @@ PRODUCT_PACKAGES += \
     libvideoeditor_jni \
     libvideoeditor_core \
     libvideoeditor_osal \
-    libvideoeditor_videofilters \
-    libvideoeditorplayer
+    libvideoeditor_videofilters
 
 # Extra tools in Axxion
 PRODUCT_PACKAGES += \
