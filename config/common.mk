@@ -144,7 +144,8 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     LockClock \
     AxxionStats \
-    CMFota
+    CMFota \
+    KernelTweaker
 
 # axxion Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
