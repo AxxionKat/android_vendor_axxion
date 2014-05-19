@@ -9,6 +9,7 @@ CHANGELOG
 ### 1.0.0
 - Initial Release:
 - HALO, custom bubble colors
+- Multi-Window (Split view)
 - Option to enble LED with the screen on
 - Slim's IME tweaks
 - Exclusive "Crimson Mode" (A complete optional RED/BLACK UI)
@@ -23,3 +24,4 @@ CHANGELOG
 - Custom Progress Bar
 - System App remover
 - New development transitions (0.25 and .75)
+- Power Menu & CPU Freq Tiles
