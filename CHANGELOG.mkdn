@@ -12,11 +12,11 @@ CHANGELOG
 - Multi-Window (Split view)
 - Option to enble LED with the screen on
 - Slim's IME tweaks
-- Exclusive "Crimson Mode" (A complete optional RED/BLACK UI)
+- Exclusive "Crimson Mode" (A completely optional RED/BLACK UI)
 - NavBar Dimensions, custom recents long press
-- Allow diabling hardware keys
+- Allow disabling hardware keys
 - Slim's LockScreen Custom Style 
-- SlimPIE (The first cm based rom with it)
+- SlimPIE (We are first CM based rom with it)
 - Status Bar and Clock customizations
 - Option to flip QS tiles on touch
 - Wakelock Blocker
