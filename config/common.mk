@@ -219,7 +219,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # AxxionStats App
 PRODUCT_COPY_FILES +=  \
-    vendor/axxion/prebuilt/common/app/AxxionStats.apk:system/app/AxxionStats.apk \    
+    vendor/axxion/prebuilt/common/app/AxxionStats.apk:system/app/AxxionStats.apk     
     
 # version
 RELEASE = true
