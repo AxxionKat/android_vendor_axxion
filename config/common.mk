@@ -143,8 +143,6 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     LockClock \
-    AxxionStats \
-    CMFota \
     KernelTweaker
 
 # axxion Hardware Abstraction Framework
@@ -218,6 +216,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.romstats.version=$(shell date +"%m-%d-%y") \
     ro.romstats.askfirst=0 \
     ro.romstats.tframe=5    
+    
+# AxxionStats App
+PRODUCT_COPY_FILES +=  \
+    vendor/axxion/prebuilt/common/app/AxxionStats.apk:system/app/AxxionStats.apk \    
     
 # version
 RELEASE = true
