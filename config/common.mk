@@ -215,7 +215,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.romstats.name=axxionkat \
     ro.romstats.version=$(shell date +"%m-%d-%y") \
     ro.romstats.askfirst=0 \
-    ro.romstats.tframe=5    
+    ro.romstats.tframe=1    
     
 # AxxionStats App
 PRODUCT_COPY_FILES +=  \
