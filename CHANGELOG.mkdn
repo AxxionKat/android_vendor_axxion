@@ -6,7 +6,23 @@ Downloads: www.drdevs.com/devs/axxionkat
 CHANGELOG 
 ---------
 
-### 1.0.0
+### 1.1.0 (1 June)
+- Last CM changes up to date
+- Notification Reminder
+- Slim Recents (with all its features + Floating mode)
+- Stock Recents: Floating Mode, Custom clear all button and RAM Bar)
+- Battery level around the lockscreen ring
+- Option to add seconds to clock
+- Add never option to Sleep Tile
+- Contextual Notification Drawer headers
+- Allow hiding notification icons
+- Allow all widgets in keyguard
+- Add Last app & Power menu into Navring targets
+- Haptick feedback to quick tiles
+- Red action bar
+- Fixes: Wallpaper won't clear in SystemUI restart; make the dialogs pop-ups black; Keyboard will dismiss when floating window dismiss 
+
+### 1.0.0 (25 May)
 - Initial Release:
 - HALO, custom bubble colors
 - Multi-Window (Split view)
@@ -21,7 +37,7 @@ CHANGELOG
 - Option to flip QS tiles on touch
 - Wakelock Blocker
 - Custom volume panel timeout 
-- Custom Progress Bar
 - System App remover
 - New development transitions (0.25 and .75)
 - Power Menu & CPU Freq Tiles
+
