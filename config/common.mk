@@ -142,6 +142,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     Apollo \
     CMFileManager \
+    LockClock \
     KernelTweaker
 
 # axxion Hardware Abstraction Framework
