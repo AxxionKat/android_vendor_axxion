@@ -262,6 +262,9 @@ endif
 endif
 endif
 
+# by default, do not update the recovery with system updates
+PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
+
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.axxion.display.version=$(AxxionKat_DISPLAY_VERSION)
 
