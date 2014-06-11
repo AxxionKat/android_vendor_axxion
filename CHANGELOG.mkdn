@@ -6,6 +6,18 @@ Downloads: www.drdevs.com/devs/axxionkat
 CHANGELOG 
 ---------
 
+#@@ 1.2.0 (12 June)
+- Android Kitkat 4.4.3
+- CM up to date
+- OTA support
+- Volume steps
+- HALO fully customizable colors!
+- Network Stats in statusbar
+- New floting window system from Omni
+- Removed Multi-Window since the new floting can do the same
+- Option to use QS with floating window
+- Fixed HALO button in notif drawer; dialog in Network Settings;
+
 ### 1.1.0 (1 June)
 - Last CM changes up to date
 - Notification Reminder
