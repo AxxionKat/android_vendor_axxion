@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     LockClock \
+    AxxionUpdater \
     KernelTweaker
 
 # axxion Hardware Abstraction Framework
