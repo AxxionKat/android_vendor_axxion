@@ -16,7 +16,7 @@ CHANGELOG
 - New floting window system from Omni
 - Removed Multi-Window since the new floting can do the same
 - Option to use QS with floating window
-- Fixed HALO button in notif drawer; dialog in Network Settings;
+- Fixed HALO button in notif drawer; dialog in Network Settings; wallpaper cropper fc
 
 ### 1.1.0 (1 June)
 - Last CM changes up to date
