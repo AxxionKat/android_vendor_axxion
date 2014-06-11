@@ -262,6 +262,10 @@ endif
 endif
 endif
 
+# Build changelog  in OUT folder
+PRODUCT_COPY_FILES += \
+    vendor/axxion/CHANGELOG.mkdn:$(AXXION_VERSION)-$(TARGET_DEVICE).txt
+
 # by default, do not update the recovery with system updates
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 
