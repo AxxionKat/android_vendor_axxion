@@ -6,6 +6,14 @@ Downloads: www.drdevs.com/devs/axxionkat
 CHANGELOG 
 ---------
 
+### 1.3.0 (22 June)
+- Android Kitkat 4.4.4
+- HOVER from PA
+- Hover Timeout
+- Hover options
+- up to date with CM
+- Fixes
+
 ### 1.2.0 (12 June)
 - Android Kitkat 4.4.3
 - CM up to date
