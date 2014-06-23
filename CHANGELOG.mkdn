@@ -12,7 +12,10 @@ CHANGELOG
 - Hover Timeout
 - Hover options
 - up to date with CM
-- Fixes
+- Get rid of More Device Options
+- Fix Icons in QS and Notification Bar
+- Add background to HALO icon
+- Update HALO drawables and code to be up to date with KitKat
 
 ### 1.2.0 (12 June)
 - Android Kitkat 4.4.3
