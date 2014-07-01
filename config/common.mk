@@ -36,14 +36,6 @@ PRODUCT_BOOTANIMATION := vendor/axxion/prebuilt/common/bootanimation/$(TARGET_BO
 endif
 endif
 
-ifdef axxion_NIGHTLY
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rommanager.developerid=cyanogenmodnightly
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rommanager.developerid=cyanogenmod
-endif
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -224,7 +216,7 @@ PRODUCT_COPY_FILES +=  \
     
 # version
 RELEASE = true
-AXXION_VERSION_MAJOR = 1.3
+AXXION_VERSION_MAJOR = 1.4
 AXXION_VERSION_MINOR = 0
 
 # release
