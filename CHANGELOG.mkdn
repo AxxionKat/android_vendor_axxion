@@ -6,6 +6,21 @@ Downloads: www.drdevs.com/devs/axxionkat
 CHANGELOG 
 ---------
 
+### 1.4.0 (1 July)
+- CM up to date
+- Volume Panel Re-design
+- LockScreen Notification
+- Heads Up (Fully of all cm stuff of it)
+- Heads up QS Tile
+- Custom Progress Bar
+- Swipe to left in Recents (Stock) & Notification will open in floating window
+- Option to search in settings as in Android L
+- Some Crimson Mode improvements
+- Some Hover enhancements
+- Floating Window: Fix scaling; add ability to minimize/maximize and more!
+- Removed Add Tile button and replace it with Hover's
+- Removed lockscreen owner info from security
+
 ### 1.3.0 (22 June)
 - Android Kitkat 4.4.4
 - HOVER from PA
