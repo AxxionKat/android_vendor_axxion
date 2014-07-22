@@ -78,4 +78,3 @@ CHANGELOG
 - System App remover
 - New development transitions (0.25 and .75)
 - Power Menu & CPU Freq Tiles
-

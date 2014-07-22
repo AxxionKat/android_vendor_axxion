@@ -79,6 +79,10 @@ PRODUCT_COPY_FILES += \
     vendor/axxion/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 endif
 
+# Signature compatibility validation
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bin/otasigcheck.sh:system/bin/otasigcheck.sh
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/axxion/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
@@ -180,6 +184,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    libnamparser
+
 # These packages are excluded from user builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
 
@@ -255,15 +266,24 @@ endif
 endif
 endif
 
+<<<<<<< HEAD
 # Build changelog  in OUT folder
 PRODUCT_COPY_FILES += \
     vendor/axxion/CHANGELOG.mkdn:$(AXXION_VERSION)-$(TARGET_DEVICE).txt
 
+=======
+>>>>>>> c30b569ff7eb78970c6e59d5f28ca49a82c87739
 # by default, do not update the recovery with system updates
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.axxion.display.version=$(AxxionKat_DISPLAY_VERSION)
+
+# disable multithreaded dextop for RELEASE and SNAPSHOT builds
+ifneq ($(filter RELEASE SNAPSHOT,$(CM_BUILDTYPE)),)
+PRODUCT_PROPERTY_OVERRIDES += \
+  persist.sys.dalvik.multithread=false
+endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
