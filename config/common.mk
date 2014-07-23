@@ -227,7 +227,7 @@ PRODUCT_COPY_FILES +=  \
     
 # version
 RELEASE = true
-AXXION_VERSION_MAJOR = 1.4
+AXXION_VERSION_MAJOR = 1.5
 AXXION_VERSION_MINOR = 0
 
 # release
@@ -266,13 +266,10 @@ endif
 endif
 endif
 
-<<<<<<< HEAD
 # Build changelog  in OUT folder
 PRODUCT_COPY_FILES += \
     vendor/axxion/CHANGELOG.mkdn:$(AXXION_VERSION)-$(TARGET_DEVICE).txt
 
-=======
->>>>>>> c30b569ff7eb78970c6e59d5f28ca49a82c87739
 # by default, do not update the recovery with system updates
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 
