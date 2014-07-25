@@ -6,6 +6,16 @@ Downloads: www.drdevs.com/devs/axxionkat
 CHANGELOG 
 ---------
 
+- On The Go (fully)
+- Heads Up Tweaks == Configurable timeout and Floating window
+- Configurable Low Battery warnings
+- Vibration Options (configurable intensity)
+- Custom Carrier Label
+- More System Apps themed in crimson!
+- CM changes up to date
+- Omni's Non-Intrusive dialog 
+- Flip to Mute/Dismiss call
+
 ### 1.4.0 (1 July)
 - CM up to date
 - Volume Panel Re-design
