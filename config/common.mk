@@ -226,7 +226,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/axxion/prebuilt/common/app/AxxionStats.apk:system/app/AxxionStats.apk     
     
 # version
-RELEASE = true
+RELEASE = false
 AXXION_VERSION_MAJOR = 1.5
 AXXION_VERSION_MINOR = 0
 
