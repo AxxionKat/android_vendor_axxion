@@ -1,11 +1,30 @@
-AxxionKat
+AxxionKat ROM
 ===============
-
-Downloads: www.drdevs.com/devs/axxionkat
 
 CHANGELOG 
 ---------
 
+### 1.6.0 (12 September) 
+- Battery Saver Mode 
+- Slim's Heads Up
+- Omni's Status Bar Network traffic
+- PEEK (Custom wake and pick timeout)
+- Volume Rocker Wake
+- Option to change QS Ribbons size
+- Volume panel custom background color
+- Improved SlimPie (thanks to crdroid)
+- Apps: Blacklist Interface for HALO, Peek and Floating Mode
+- Hover Removal
+- Aokp's Custom System Aniamtions
+- ListView animations
+- Toast animations
+- SlimRecents: Custom background color and Option to Show foreground app
+- Toggle navbar in powermenu
+- Smart Phone Call
+- Disable statusbar refresh while screen is off
+- Floating swype left removal
+- 
+### 1.5.0 9 (20 July)
 - On The Go (fully)
 - Heads Up Tweaks == Configurable timeout and Floating window
 - Configurable Low Battery warnings
