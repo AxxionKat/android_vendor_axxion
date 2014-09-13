@@ -215,7 +215,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/axxion/overlay/common
 
 # ROM Statistics and ROM Identification
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.romstats.url=http://http://axxionkat.crackflasher.com/stats/ \
+    ro.romstats.url=http://axxionkat.crackflasher.com/stats/ \
     ro.romstats.name=axxionkat \
     ro.romstats.version=$(shell date +"%m-%d-%y") \
     ro.romstats.askfirst=0 \
