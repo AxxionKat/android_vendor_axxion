@@ -4,11 +4,14 @@ AxxionKat ROM
 CHANGELOG 
 ---------
 
-### 1.6.0 (12 September) 
+### 1.6.0 (14 September) 
+- COMPLETELY RE-DO OF THE SYSTEM (NEEDS CLEAN FLASH)
 - Battery Saver Mode 
 - Slim's Heads Up
 - Omni's Status Bar Network traffic
 - PEEK (Custom wake and pick timeout)
+- Crimson Mode: Dark Contacts, dark documents, dark dialer, 
+dark DspManager, dark mms, dark torch and general improvements
 - Volume Rocker Wake
 - Option to change QS Ribbons size
 - Volume panel custom background color
@@ -23,7 +26,14 @@ CHANGELOG
 - Smart Phone Call
 - Disable statusbar refresh while screen is off
 - Floating swype left removal
-- 
+- Clean the notification view
+- Fully CM Theme Engine compatibility
+- Auto-close panel options 
+- Call recorder option
+- New host: Crackflasher
+- Soft-Reboot
+And lots of more improvements, enhancements all over the system.
+
 ### 1.5.0 9 (20 July)
 - On The Go (fully)
 - Heads Up Tweaks == Configurable timeout and Floating window
