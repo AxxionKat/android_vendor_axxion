@@ -6,6 +6,7 @@ CHANGELOG
 
 ### 1.6.0 (14 September) 
 - COMPLETELY RE-DO OF THE SYSTEM (NEEDS CLEAN FLASH)
+- New Linaro Toolchain of August for more smooth and clean enviroment
 - Battery Saver Mode 
 - Slim's Heads Up
 - Omni's Status Bar Network traffic
