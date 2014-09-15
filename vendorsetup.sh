@@ -2,6 +2,7 @@ add_lunch_combo axxion_d2lte-userdebug
 add_lunch_combo axxion_gee-userdebug
 add_lunch_combo axxion_hammerhead-userdebug
 add_lunch_combo axxion_hlte-userdebug
+add_lunch_combo axxion_hltespr-userdebug
 add_lunch_combo axxion_i9300-userdebug
 add_lunch_combo axxion_i9500-userdebug
 add_lunch_combo axxion_jflte-userdebug
