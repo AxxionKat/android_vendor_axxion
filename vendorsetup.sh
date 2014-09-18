@@ -1,4 +1,5 @@
 add_lunch_combo axxion_d2lte-userdebug
+add_lunch_combo axxion_falcon-userdebug
 add_lunch_combo axxion_gee-userdebug
 add_lunch_combo axxion_hammerhead-userdebug
 add_lunch_combo axxion_hlte-userdebug
