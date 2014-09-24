@@ -161,8 +161,8 @@ echo -e ${grn}"Cleaning up..."${txtrst}
 rm -rf $REPACK
 
 # get current version
-eval $(grep "^LIQUID_VERSION_" vendor/liquid/config/common.mk | sed 's/ *//g')
-VERSION="$LIQUID_VERSION_MAJOR.$LIQUID_VERSION_MINOR.$LIQUID_VERSION_MAINTENANCE"
+eval $(grep "^AXXION_VERSION_" vendor/axxion/config/common.mk | sed 's/ *//g')
+VERSION="AXXION-v$(AXXION_VERSION_MAJOR).$(AXXION_VERSION_MINOR)-$(AXXION_VERSION_STATE)"
 
 # Create a md5 checksum image of the repacked package
 (
